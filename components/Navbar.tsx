@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { navLinks } from '@/constants';
+import Link from "next/link";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
         <nav className="w-full fixed top-0 z-50 bg-transparent backdrop-blur-sm">
             <div className="flex items-center justify-between max-w-7xl mx-auto px-4 py-5">
 
-                <a href="/" onClick={(e) => handleScroll(e, 'home')} className="flex items-center gap-2">
+                <Link href="/" onClick={(e) => handleScroll(e, 'home')} className="flex items-center gap-2">
                     <Image
                         src="/images/logo.png"
                         alt="Logo"
@@ -25,7 +26,7 @@ const Navbar = () => {
                         height={40}
                         className="object-contain"
                     />
-                </a>
+                </Link>
 
 
                 <ul className="hidden md:flex gap-8">
