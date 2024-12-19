@@ -4,4 +4,5 @@ export const navLinks = [
     { href: 'events', label: 'Events' },
     { href: 'latest-work', label: 'Latest Work' },
 
+
 ];

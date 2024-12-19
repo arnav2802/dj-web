@@ -24,7 +24,7 @@ export default function Home() {
               <Latestwork/>
             </section>
             <section id="contact">
-              <Contactus/>
+              <Contactus />
             </section>
             <Footer/>
         </div>

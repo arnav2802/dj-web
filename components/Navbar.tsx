@@ -39,25 +39,39 @@ const Navbar = () => {
                             >
                                 {link.label}
                             </a>
+
                         </li>
                     ))}
                 </ul>
+                <div className='sm:flex flex'>
+                    <button
+                        className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg
+                            font-medium transition-all duration-300 transform hover:scale-105
+                            shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] md:flex sm:mr-8
+                             "
+                    >
+                        Contact Us
+                    </button>
 
 
-                <button
-                    className="md:hidden text-white p-2"
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                >
-                    {isMenuOpen ? (
-                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                    ) : (
-                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    )}
-                </button>
+                    <button
+                        className="md:hidden text-white p-2"
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    >
+                        {isMenuOpen ? (
+                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                      d="M6 18L18 6M6 6l12 12"/>
+                            </svg>
+                        ) : (
+                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                      d="M4 6h16M4 12h16M4 18h16"/>
+                            </svg>
+                        )}
+                    </button>
+                </div>
+
             </div>
 
 
