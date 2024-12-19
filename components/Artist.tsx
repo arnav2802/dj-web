@@ -3,15 +3,15 @@ import Image from 'next/image';
 const Artist = () => {
     return (
         <section id="artist" className="relative w-full bg-black py-20 md:py-32 " >
-            {/* Dotted line path */}
+
             <div className="absolute left-8 md:left-16 mt:80px h-full w-[2px] hidden md:block ">
                 <div className="relative h-full ">
-                    {/* Circle with number */}
-                    <div className="absolute top-0 -left-4 w-8 h-8 rounded-full border-2 border-gray-700 flex items-center justify-center">
+
+                    <div className="absolute top-[-30] -left-4 w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center">
                         <span className="text-gray-400 text-sm">01</span>
                     </div>
-                    {/* Dotted line */}
-                    <div className="h-full w-[2px] border-l-2 border-dashed border-gray-700"></div>
+
+                    {/*<div className="h-full w-[2px] border-l-2 border-dashed border-gray-700"></div>*/}
                 </div>
             </div>
 
@@ -37,7 +37,7 @@ const Artist = () => {
                     {/* Right Image */}
                     <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-2xl overflow-hidden">
                         <Image
-                            src="/concert-crowd.jpg" // Add your concert image here
+                            src="/images/5.png" // Add your concert image here
                             alt="Concert crowd"
                             fill
                             className="object-cover transition-transform hover:scale-105 duration-700"

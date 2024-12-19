@@ -6,7 +6,7 @@ const Landing = () => {
 
             <div>
 
-                <div className="absolute inset-0 opacity-50 ">
+                <div className="absolute inset-0 opacity-50  ">
                     <Image
                         src="/images/2.png"
                         alt="Background texture"
@@ -14,6 +14,7 @@ const Landing = () => {
                         className="object-cover"
                         priority
                     />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80  to-transparent"></div>
 
                 </div>
             </div>

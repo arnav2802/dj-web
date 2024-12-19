@@ -1,39 +1,39 @@
 const Contactus = () => {
     return (
         <section className="relative w-full min-h-[60vh] bg-black py-20 md:py-32">
-            {/* Background Image with Overlay */}
+
             <div className="absolute inset-0 z-0">
                 <div
-                    className="absolute inset-0 bg-[url('/festival-bg.jpg')] bg-cover bg-center"
+                    className="absolute inset-0 bg-[url('/images/3.png')] bg-cover bg-center"
                     style={{ backgroundPosition: '50% 33%' }}
                 />
-                <div className="absolute inset-0 bg-black/70" /> {/* Dark overlay */}
+                <div className="absolute inset-0 bg-black/70" />
             </div>
 
-            {/* Content */}
+
             <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6">
-                {/* Section Number */}
+
                 <div className="flex justify-center mb-12">
                     <div className="w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center">
                         <span className="text-gray-400 text-sm">04</span>
                     </div>
                 </div>
 
-                {/* Main Content */}
+
                 <div className="flex flex-col items-center text-center max-w-4xl mx-auto space-y-8">
-                    {/* Subtitle */}
+
                     <span className="text-purple-500 text-sm md:text-base uppercase tracking-wider">
                         GET IN TOUCH
                     </span>
 
-                    {/* Title */}
+
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
                         Create Amazing Memories
                         <br />
                         Out of Your Next Festival
                     </h2>
 
-                    {/* CTA Button */}
+
                     <button
                         className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg 
                             font-medium transition-all duration-300 transform hover:scale-105
@@ -44,10 +44,10 @@ const Contactus = () => {
                 </div>
             </div>
 
-            {/* Decorative Elements */}
+
             <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent" />
 
-            {/* Optional: Animated particles or light effects */}
+
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-purple-500 rounded-full animate-pulse" />
                 <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-purple-500 rounded-full animate-pulse delay-75" />

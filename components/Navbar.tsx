@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <nav className="w-full fixed top-0 z-50 bg-transparent backdrop-blur-sm">
             <div className="flex items-center justify-between max-w-7xl mx-auto px-4 py-5">
-                {/* Logo */}
+
                 <a href="/" onClick={(e) => handleScroll(e, 'home')} className="flex items-center gap-2">
                     <Image
                         src="/images/logo.png"
@@ -27,7 +27,7 @@ const Navbar = () => {
                     />
                 </a>
 
-                {/* Desktop Navigation */}
+
                 <ul className="hidden md:flex gap-8">
                     {navLinks.map((link) => (
                         <li key={link.label}>
@@ -42,7 +42,7 @@ const Navbar = () => {
                     ))}
                 </ul>
 
-                {/* Mobile Menu Button */}
+
                 <button
                     className="md:hidden text-white p-2"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -59,7 +59,7 @@ const Navbar = () => {
                 </button>
             </div>
 
-            {/* Mobile Menu */}
+
             {isMenuOpen && (
                 <div className="md:hidden absolute top-full left-0 w-full bg-black/90 backdrop-blur-sm">
                     <ul className="flex flex-col items-center py-4">
