@@ -6,11 +6,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #000000;
+  /*background-color: #000000;*/
   text-decoration: white;
+  scrollbar-width: none;
 }
+
 section {
-  padding-top: 80px;
+  /*padding-top: 80px;*/
   scroll-margin-top: 80px;
 }
 
@@ -42,17 +44,17 @@ section {
   animation: fadeIn 0.6s ease-out forwards;
 }
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar-track {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
 }
-
-
-
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
 @keyframes pulse {
   0%, 100% {
     opacity: 1;

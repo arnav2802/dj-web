@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const Artist = () => {
     return (
-        <section id="artist" className="relative w-full bg-black py-20 md:py-32">
+        <section id="artist" className="relative w-full bg-black py-20 md:py-32 " >
             {/* Dotted line path */}
-            <div className="absolute left-8 md:left-16 top-0 h-full w-[2px] hidden md:block">
-                <div className="relative h-full">
+            <div className="absolute left-8 md:left-16 mt:80px h-full w-[2px] hidden md:block ">
+                <div className="relative h-full ">
                     {/* Circle with number */}
                     <div className="absolute top-0 -left-4 w-8 h-8 rounded-full border-2 border-gray-700 flex items-center justify-center">
                         <span className="text-gray-400 text-sm">01</span>
