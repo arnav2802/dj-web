@@ -6,37 +6,55 @@ const benefitCards = [
     {
         id: 1,
         number: '1',
-        title: 'Unlimited Photo',
+        title: 'Haldi',
         image: '/images/5.png',
     },
     {
         id: 2,
         number: '2',
-        title: 'Video Documentation',
+        title: 'Mehndi',
         image: '/images/3.png',
     },
     {
         id: 3,
         number: '3',
-        title: 'Manage Large Event',
+        title: 'Carnival',
         image: '/images/4.png',
     },
     {
         id: 4,
         number: '4',
-        title: 'Custom Benefits',
+        title: 'Dance Night',
         image: '/images/6.png',
     },
     {
         id: 5,
         number: '5',
-        title: 'Event Planning',
+        title: 'DJ Baraat',
         image: '/images/7.png',
     },
     {
         id: 6,
         number: '6',
-        title: 'Support 24/7',
+        title: 'After Party',
+        image: '/images/8.png',
+    },
+    {
+        id: 7,
+        number: '7',
+        title: 'Dholl with DJ/Mc',
+        image: '/images/8.png',
+    },
+    {
+        id: 8,
+        number: '8',
+        title: 'Techno Party on DJ',
+        image: '/images/8.png',
+    },
+    {
+        id: 9,
+        number: '9',
+        title: 'School/college Events',
         image: '/images/8.png',
     },
 ];
@@ -48,9 +66,9 @@ const Benefits = () => {
         <section className="relative w-full bg-black py-20 md:py-32 overflow-hidden">
 
             <div className="absolute right-8 md:right-16 top-20 md:top-32 flex items-center gap-4">
-                <h2 className="text-white text-2xl md:text-3xl font-bold">BENEFIT</h2>
+                <h2 className="text-white text-2xl md:text-3xl font-bold">EVENTS</h2>
                 <div className="w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center">
-                    <span className="text-gray-400 text-sm">02</span>
+                    <span className="text-white text-sm">02</span>
                 </div>
             </div>
 
@@ -73,7 +91,7 @@ const Benefits = () => {
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                                 />
 
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent"></div>
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/5 to-transparent"></div>
 
 
                                 <div className="absolute bottom-0 left-0 p-6 z-10">

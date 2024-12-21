@@ -7,15 +7,15 @@ const Contactus = () => {
                     className="absolute inset-0 bg-[url('/images/3.png')] bg-cover bg-center"
                     style={{ backgroundPosition: '50% 33%' }}
                 />
-                <div className="absolute inset-0 bg-black/70" />
+                <div className="absolute inset-0 bg-black/50 via-black/5 to-transparent" />
             </div>
 
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6">
 
                 <div className="flex justify-center mb-12">
-                    <div className="w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center">
-                        <span className="text-gray-400 text-sm">04</span>
+                    <div className="w-12 h-12 rounded-full border-2 border-white flex items-center justify-center">
+                        <span className="text-white text-sm">04</span>
                     </div>
                 </div>
 

@@ -4,11 +4,11 @@ const Artist = () => {
     return (
         <section id="artist" className="relative w-full bg-black py-20 md:py-32 " >
 
-            <div className="absolute left-8 md:left-16 mt:80px h-full w-[2px] hidden md:block ">
+            <div className="absolute left-8 md:left-16 mt-80px h-full w-[2px] hidden md:block ">
                 <div className="relative h-full ">
 
                     <div className="absolute top-[-30] -left-4 w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center">
-                        <span className="text-gray-400 text-sm">01</span>
+                        <span className="text-white text-sm">01</span>
                     </div>
 
                     {/*<div className="h-full w-[2px] border-l-2 border-dashed border-gray-700"></div>*/}

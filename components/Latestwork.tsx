@@ -1,5 +1,5 @@
 'use client';
-import { useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import Image from 'next/image';
 
 
@@ -53,7 +53,7 @@ const Latestwork = () => {
 
             <div className="absolute top-20 left-1/2 transform -translate-x-1/2">
                 <div className="w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center">
-                    <span className="text-gray-400 text-sm">03</span>
+                    <span className="text-white text-sm">03</span>
                 </div>
             </div>
 
@@ -90,7 +90,7 @@ const Latestwork = () => {
                                     className="object-cover"
                                 />
 
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                             </div>
                         ))}
                     </div>
