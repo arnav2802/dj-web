@@ -24,25 +24,32 @@ const Artist = () => {
                             Music is the Greater Uniter
                         </h2>
                         <p className="text-gray-400 text-sm md:text-base leading-relaxed">
-                            About Artist ----------------------------------------
-                            ----------------------------------------------------
-                            ------------------------------------------------------
-                            --------------------------------------------------------
-                            ---------------------------------------------------------
-                            -------------------------------------------------------------
-                            --------------------------------------------------------------
+                            <span className='text-white font-bold '>
+                                Amitesh
+                            </span>
+                            {' '} is a dynamic DJ and music producer known for delivering electrifying performances that
+                            captivate audiences. With a passion for blending genres and creating unique
+                            soundscapes, <span className='text-white font-bold '>
+                                Amitesh
+                            </span>{' '} specializes in specific genres, e.g., house, techno, EDM, infusing every
+                            set with energy and emotion.
+
                         </p>
                     </div>
 
-                    {/* Right Image */}
+
                     <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-2xl overflow-hidden">
-                        <Image
-                            src="/images/5.png" // Add your concert image here
-                            alt="Concert crowd"
-                            fill
-                            className="object-cover transition-transform hover:scale-105 duration-700"
-                        />
-                        {/* Gradient overlay */}
+                        {/*<Image*/}
+                        {/*    src="/images/v4.mp4"*/}
+                        {/*    alt="Concert crowd"*/}
+                        {/*    fill*/}
+                        {/*    className="object-cover transition-transform hover:scale-105 duration-700"*/}
+                        {/*/>*/}
+                        <video width="full" height="full" controls={false} autoPlay={false}  >
+                            <source src="images/v4.mp4"  />
+
+                        </video>
+
                         <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
                     </div>
                 </div>

@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 const footerLinks = {
     'Get In Touch': [
-        { name: 'About Us', href: '/about' },
+        { name: 'About Us', href: '/' },
 
     ],
     'Services': [
-        { name: 'Events', href: '/events' ,  },
+        { name: 'Events', href: '/' ,  },
         { name: 'Marriages', href: '/' },
 
     ],
@@ -63,8 +63,6 @@ const Footer = () => {
                     <p className="text-sm text-gray-400">
                         Versai 2024 • All rights reserved • Versai
                     </p>
-
-
                     <div className="flex space-x-6">
                     </div>
                 </div>
