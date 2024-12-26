@@ -51,7 +51,7 @@ const Latestwork = () => {
     return (
         <section className="relative w-full bg-black py-20 md:py-32">
 
-            <div className="absolute top-20 left-1/2 transform -translate-x-1/2">
+            <div className="absolute top-[-20] left-1/2 transform -translate-x-1/2">
                 <div className="w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center">
                     <span className="text-white text-sm">03</span>
                 </div>
@@ -97,7 +97,7 @@ const Latestwork = () => {
                 </div>
 
 
-                <div className="absolute bottom-[-15] left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2">
+                <div className="absolute bottom-[-20] left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2">
                     <div className="flex items-center gap-4">
                         <svg
                             className="w-6 h-6 text-gray-500"
@@ -112,7 +112,7 @@ const Latestwork = () => {
                                 d="M7 16l-4-4m0 0l4-4m-4 4h18"
                             />
                         </svg>
-                        <span className="text-gray-500 uppercase text-sm tracking-wider">
+                        <span className="text-white uppercase text-sm tracking-wider text-nowrap">
                             Drag to explore
                         </span>
                         <svg

@@ -1,13 +1,13 @@
-// import Image from 'next/image';
+import Image from 'next/image';
 
 const Artist = () => {
     return (
         <section id="artist" className="relative w-full bg-black py-20 md:py-32 " >
 
-            <div className="absolute left-8 md:left-16 mt-80px h-full w-[2px] hidden md:block ">
-                <div className="relative h-full ">
+            <div className="absolute left-8 md:left-16 h-full w-[2px]  md:block ">
+                <div className="relative h-full mb-40">
 
-                    <div className="absolute top-[-30] -left-4 w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center">
+                    <div className="absolute top-[-60] -left-4 w-12 h-12 rounded-full border-2 border-white flex items-center justify-center">
                         <span className="text-white text-sm">01</span>
                     </div>
 
@@ -17,7 +17,7 @@ const Artist = () => {
 
             <div className="max-w-7xl mx-auto px-4 md:px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
-                    {/* Left Content */}
+
                     <div className="space-y-6 max-w-xl">
                         <span className="text-purple-500 text-sm md:text-base">An incredible force</span>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
@@ -38,17 +38,13 @@ const Artist = () => {
                     </div>
 
 
-                    <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-2xl overflow-hidden">
-                        {/*<Image*/}
-                        {/*    src="/images/v4.mp4"*/}
-                        {/*    alt="Concert crowd"*/}
-                        {/*    fill*/}
-                        {/*    className="object-cover transition-transform hover:scale-105 duration-700"*/}
-                        {/*/>*/}
-                        <video width="full" height="full" controls={false} autoPlay={false}  >
-                            <source src="images/v4.mp4"  />
-
-                        </video>
+                    <div className="relative h-[500px] md:h-[750px] lg:h-800px] w-full rounded-2xl overflow-hidden">
+                        <Image
+                            src="/images/artist.png"
+                            alt="Concert crowd"
+                            fill
+                            className="object-cover transition-transform hover:scale-105 duration-700"
+                        />
 
                         <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
                     </div>
