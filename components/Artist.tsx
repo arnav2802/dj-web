@@ -38,7 +38,7 @@ const Artist = () => {
                     </div>
 
 
-                    <div className="relative h-[500px] md:h-[750px] lg:h-800px] w-full rounded-2xl overflow-hidden">
+                    <div className="relative h-[390px] md:h-[750px] lg:h-[650px] w-full rounded-2xl overflow-hidden">
                         <Image
                             src="/images/artist.png"
                             alt="Concert crowd"

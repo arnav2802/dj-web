@@ -1,3 +1,6 @@
+import Link from "next/link";
+import React from "react";
+
 const Contactus = () => {
     return (
         <section className="relative w-full min-h-[60vh] bg-black py-20 md:py-32">
@@ -39,7 +42,8 @@ const Contactus = () => {
                             font-medium transition-all duration-300 transform hover:scale-105
                             shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)]"
                     >
-                        Get Started
+                        <Link href="/contact">Contact Us</Link>
+
                     </button>
                 </div>
             </div>

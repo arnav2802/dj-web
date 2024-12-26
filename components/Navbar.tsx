@@ -11,7 +11,7 @@ const Navbar = () => {
         e.preventDefault();
         const element = document.getElementById(id);
         element?.scrollIntoView({ behavior: 'smooth' });
-        setIsMenuOpen(false);
+        setIsMenuOpen(true);
     };
 
     return (
@@ -50,7 +50,7 @@ const Navbar = () => {
                             shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] md:flex sm:mr-8
                              "
                     >
-                        <Link href="contact" onClick={(e) => handleScroll(e, 'contact')}>Contact Us</Link>
+                        <Link href="" onClick={(e) => handleScroll(e, 'contact')}>Contact Us</Link>
 
                     </button>
 

@@ -1,28 +1,35 @@
+'use client'
 import Image from 'next/image';
 import Link from 'next/link';
+import React from "react";
 
 const footerLinks = {
     'Get In Touch': [
-        { name: 'About Us', href: '/' },
-        { name: 'Contact Us', href: '/contact' },
+        { name: 'About Us', href: 'artist' },
+        // { name: 'Contact Us', href: '/contact' },
     ],
     'Services': [
-        { name: 'Events', href: '/' },
-        { name: 'Marriages', href: '/' },
+        { name: 'Events', href: 'events' },
+        { name: 'Latest Work', href: 'latest-work' },
     ],
 };
 
 
 
 const Footer = () => {
+    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+        e.preventDefault();
+        const element = document.getElementById(id);
+        element?.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <footer className="bg-black text-white">
             <div className="max-w-7xl mx-auto px-4 md:px-6 pt-16 pb-8">
-
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-20 mb-12">
 
                     <div className="col-span-2 md:col-span-1">
-                        <Link href="/" className="inline-block">
+                        <Link href="" onClick={(e) => handleScroll(e, 'home')} className="inline-block">
                             <Image
                                 src="/images/logo.png"
                                 alt="Versai"
@@ -45,15 +52,19 @@ const Footer = () => {
                                         <Link
                                             href={link.href}
                                             className="text-sm text-gray-400 hover:text-white transition-colors"
+                                            onClick={(e) => handleScroll(e, link.href)}
                                         >
                                             {link.name}
                                         </Link>
                                     </li>
-                                ))}
+                                    ))}
                             </ul>
+
                         </div>
+
                     ))}
                 </div>
+
 
 
                 <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
