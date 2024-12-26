@@ -40,7 +40,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <main className="flex-grow bg-black overflow-hidden pt-24 pb-4 bg-[url('/images/2.png')] bg-cover bg-center ">
+        <main className="flex-grow bg-black overflow-hidden pt-24 pb-4 bg-[url('/images/m1.jpeg')] bg-cover bg-center ">
           <div>
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 

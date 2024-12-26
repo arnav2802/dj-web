@@ -6,15 +6,15 @@ const Landing = () => {
 
             <div>
 
-                <div className="absolute inset-0 opacity-50  ">
+                <div className="absolute inset-0 opacity-50">
                     <Image
-                        src="/images/2.png"
+                        src="/images/m3.jpeg"
                         alt="Background texture"
                         fill
                         className="object-cover"
                         priority
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80  to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/5 to-transparent"></div>
 
                 </div>
             </div>
@@ -55,38 +55,53 @@ const Landing = () => {
                     <div className="relative grid grid-cols-2 gap-3 md:gap-10 h-[400px] md:h-[750px] mt-8 lg:mt-0 bg-transparent ">
                         <div className="space-y-3 md:space-y-10 bg-transparent">
                             <div className="relative h-48 md:h-96 w-full rounded-xl md:rounded-2xl overflow-hidden bg-transparent">
-                                <Image
-                                    src="/images/4.png"
-                                    alt=""
-                                    fill
-                                    className="object-cover"
-                                />
+                                {/*<Image*/}
+                                {/*    src="/images/4.png"*/}
+                                {/*    alt=""*/}
+                                {/*    fill*/}
+                                {/*    className="object-cover"*/}
+                                {/*/>*/}
+                                <video autoPlay={true} loop preload="auto" muted >
+                                    <source src="/images/edit3.mp4" type="video/mp4" />
+                                </video>
                             </div>
-                            <div className="relative h-32 md:h-48 w-full rounded-xl md:rounded-2xl overflow-hidden bg-transparent">
-                                <Image
-                                    src="/images/5.png"
-                                    alt=""
-                                    fill
-                                    className="object-cover"
-                                />
+                            <div
+                                className="relative h-32 md:h-48 w-full rounded-xl md:rounded-2xl overflow-hidden bg-transparent">
+                                {/*<Image*/}
+                                {/*    src="/images/5.png"*/}
+                                {/*    alt=""*/}
+                                {/*    fill*/}
+                                {/*    className="object-cover"*/}
+                                {/*/>*/}
+                                <video autoPlay={true} loop preload="auto" muted>
+                                    <source src="/images/edit1.mp4" type="video/mp4"/>
+                                </video>
                             </div>
                         </div>
                         <div className="space-y-3 md:space-y-10 pt-8 md:pt-16 bg-transparent">
-                            <div className="relative h-32 md:h-48 w-full rounded-xl md:rounded-2xl overflow-hidden bg-transparent">
-                                <Image
-                                    src="/images/10.png"
-                                    alt=""
-                                    fill
-                                    className="object-cover"
-                                />
+                            <div
+                                className="relative h-32 md:h-48 w-full rounded-xl md:rounded-2xl overflow-hidden bg-transparent">
+                                {/*<Image*/}
+                                {/*    src="/images/10.png"*/}
+                                {/*    alt=""*/}
+                                {/*    fill*/}
+                                {/*    className="object-cover"*/}
+                                {/*/>*/}
+                                <video autoPlay={true} loop preload="auto" muted>
+                                    <source src="/images/edit2.mp4" type="video/mp4"/>
+                                </video>
                             </div>
-                            <div className="relative h-32 md:h-96 w-full rounded-xl md:rounded-2xl overflow-hidden bg-transparent">
-                                <Image
-                                    src="/images/11.png"
-                                    alt=""
-                                    fill
-                                    className="object-cover"
-                                />
+                            <div
+                                className="relative h-32 md:h-96 w-full rounded-xl md:rounded-2xl overflow-hidden bg-transparent">
+                                {/*<Image*/}
+                                {/*    src="/images/11.png"*/}
+                                {/*    alt=""*/}
+                                {/*    fill*/}
+                                {/*    className="object-cover"*/}
+                                {/*/>*/}
+                                <video autoPlay={true} loop preload="auto" muted>
+                                    <source src="/images/edit4.mp4" type="video/mp4"/>
+                                </video>
                             </div>
                         </div>
                     </div>

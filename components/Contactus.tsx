@@ -7,7 +7,7 @@ const Contactus = () => {
 
             <div className="absolute inset-0 z-0">
                 <div
-                    className="absolute inset-0 bg-[url('/images/3.png')] bg-cover bg-center"
+                    className="absolute inset-0 bg-[url('/images/m1.jpeg')] bg-cover bg-center"
                     style={{ backgroundPosition: '50% 33%' }}
                 />
                 <div className="absolute inset-0 bg-black/50 via-black/5 to-transparent" />

@@ -6,17 +6,17 @@ import Image from 'next/image';
 const works = [
     {
         id: 1,
-        image: '/images/3.png',
+        image: '/images/m1.jpeg',
         title: 'Summer Music Festival',
     },
     {
         id: 2,
-        image: '/images/2.png',
+        image: '/images/m2.jpeg',
         title: 'Concert Stage',
     },
     {
         id: 3,
-        image: '/images/1.png',
+        image: '/images/m9.jpeg',
         title: 'Live Performance',
     },
 
@@ -89,6 +89,7 @@ const Latestwork = () => {
                                     fill
                                     className="object-cover"
                                 />
+
 
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                             </div>
