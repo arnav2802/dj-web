@@ -4,14 +4,12 @@ import Link from 'next/link';
 const footerLinks = {
     'Get In Touch': [
         { name: 'About Us', href: '/' },
-
+        { name: 'Contact Us', href: '/contact' },
     ],
     'Services': [
-        { name: 'Events', href: '/' ,  },
+        { name: 'Events', href: '/' },
         { name: 'Marriages', href: '/' },
-
     ],
-
 };
 
 
