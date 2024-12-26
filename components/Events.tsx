@@ -49,7 +49,7 @@ const benefitCards = [
         id: 8,
         number: '8',
         title: 'Techno Party on DJ',
-        image: '/images/techno.png',
+        image: '/images/techno.webp',
     },
     {
         id: 9,
