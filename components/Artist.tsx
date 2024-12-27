@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 const Artist = () => {
     return (
-        <section id="artist" className="relative w-full bg-black py-20 md:py-32 " >
+        <section id="artist" className="relative w-full bg-black pt-14 pb-20 md:py-32 " >
 
-            <div className="absolute left-8 md:left-16 h-full w-[2px]  md:block ">
+            <div className="absolute left-8 md:left-16 h-full w-[2px] md:block ">
                 <div className="relative h-full mb-40">
 
-                    <div className="absolute top-[-60] -left-4 w-12 h-12 rounded-full border-2 border-white flex items-center justify-center">
+                    <div className="absolute -left-4 w-12 h-12 rounded-full border-2 border-white flex items-center justify-center">
                         <span className="text-white text-sm">01</span>
                     </div>
 
@@ -15,7 +15,7 @@ const Artist = () => {
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto px-4 md:px-6">
+            <div className="max-w-7xl mx-auto px-4 md:px-6 pt-20">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
 
                     <div className="space-y-6 max-w-xl">

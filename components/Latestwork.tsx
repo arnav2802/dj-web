@@ -49,16 +49,16 @@ const Latestwork = () => {
     };
 
     return (
-        <section className="relative w-full bg-black py-20 md:py-32">
+        <section className="relative w-full bg-black pt-12 pb-32 md:py-32">
 
-            <div className="absolute top-[-20] left-1/2 transform -translate-x-1/2">
-                <div className="w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center">
+            <div className="absolute   left-1/2 transform -translate-x-1/2 ">
+                <div className="w-12 h-12 rounded-full border-2 border-gray-700 flex items-center justify-center ">
                     <span className="text-white text-sm">03</span>
                 </div>
             </div>
 
 
-            <div className="max-w-7xl mx-auto px-4 md:px-6 mb-12">
+            <div className="max-w-7xl mx-auto px-4 md:px-6 mb-12 pt-24">
                 <div className="flex justify-between items-center">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
                         Latest work.
