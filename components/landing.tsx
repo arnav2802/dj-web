@@ -1,6 +1,14 @@
+'use client'
 import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
 
 const Landing = () => {
+    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+        e.preventDefault();
+        const element = document.getElementById(id);
+        element?.scrollIntoView({ behavior: 'smooth' });
+    };
     return (
         <section className="relative min-h-screen w-full bg-black overflow-hidden ">
 
@@ -47,7 +55,7 @@ const Landing = () => {
                         </p>
 
                         <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 md:px-8 py-3 rounded-lg font-medium transition-colors">
-                            Discover More
+                            <Link href="" onClick={(e) => handleScroll(e, 'events')}>Discover more</Link>
                         </button>
                     </div>
 

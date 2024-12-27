@@ -11,7 +11,7 @@ const Navbar = () => {
         e.preventDefault();
         const element = document.getElementById(id);
         element?.scrollIntoView({ behavior: 'smooth' });
-        setIsMenuOpen(true);
+        setIsMenuOpen(false);
     };
 
     return (
